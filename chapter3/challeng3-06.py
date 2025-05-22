@@ -1,8 +1,6 @@
 age=int(input("年齢をかいてごらん"))
-if age<=60:
-    print("休んでごらん")
-elif 18<age and 60>age:
-    print("頑張ってごらん")
+if age < 20:
+    print("お酒は飲めません")
 else:
-    print("まあうん")
+    print("お酒は飲めます")
 
